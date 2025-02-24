@@ -1,0 +1,107 @@
+.liNav {
+    padding-top: 1.8em;
+}
+
+.navClass {
+    height: 6.25em;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.sectionFloat {
+    float: left;
+}
+
+.grid-container {
+    display: grid;
+    gap: 1em;
+    grid-template-columns: repeat(5, 1fr);
+    /*background: skyblue;*/
+    text-align: center;
+    padding: 1em;
+}
+
+.grid-container-Wk{
+    display: grid;
+    gap: 1em;
+    grid-template-columns: repeat(2, 1fr);
+    /*background: skyblue;*/
+    text-align: center;
+    padding: 1em;
+}
+
+.delFloat{
+    clear: both;
+}
+
+a.mainA {
+    color: black;
+    text-decoration: none;
+}
+
+input[type=text],input[type=number] {
+    width: 75%;
+    padding: 0.75em 1.25em;
+    margin: 0.5em 0;
+    box-sizing: border-box;
+}
+
+select {
+    width: 95%;
+    padding: 1em 1.25em;
+    border: none;
+    border-radius: 0.25em;
+    font-size: 1em;
+    font-family: "Arial";
+    /*background-color: #f1f1f1;*/
+}
+
+
+input[type=button], input[type=submit], input[type=reset] {
+    background-color: #04AA6D;
+    border: none;
+    color: white;
+    padding: 1em 2em;
+    text-decoration: none;
+    margin: 0.25em 0.125em;
+    width: 40%;
+    cursor: pointer;
+    /*position: relative;*/
+}
+
+.card img {
+    height: 7.8em;
+}
+
+.font-changer {
+    font-size: 1rem;
+    font-family: "Arial";
+}
+
+@media (max-width: 758px) {
+    .grid-container {
+        grid-template-columns: 1fr;
+    }
+
+    .grid-container-Wk{
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+.Nav  {
+    /*background-color: green;*/
+    display: flex;
+    justify-content: center;
+    height: 5.5em;
+    justify-content: space-between;
+    margin-top:  1.5em;
+    padding-left: 30%;
+    padding-right: 30%;
+    list-style-type: none;
+    font-size: 1.25rem;
+}
+
+a {
+    text-decoration: none;
+    list-style-type: none;
+}
